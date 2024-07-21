@@ -1,0 +1,112 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header .top-bar {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+header .logo img {
+    padding-top: 10px;
+    padding-left: 10px;
+    height: 60px; /* Adjusted height */
+    width: auto;  /* Keeps the aspect ratio */
+}
+
+header .main-nav {
+    display: flex;
+    flex-grow: 1;
+    justify-content: flex-start; /* Changed from space-between to flex-start */
+    gap: 1px; /* Added gap to control space between elements */
+    padding-right: 10px;
+}
+
+header .main-nav a {
+    color: black;
+    text-decoration: none;
+    padding: 10px;
+    padding-left: 10px;
+}
+
+header .main-nav .green-button {
+    background-color: green;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.second-bar {
+    border-top: 1px solid blue;
+    border-bottom: 1px solid blue;
+}
+
+.second-bar .library-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+second-bar .library-nav a {
+    color: black;
+    text-decoration: none;
+    padding: 10px;
+    background-color: blue;
+    color: white;
+    border-radius: 5px;
+}
+
+.second-bar .search-box {
+    background-color: blue;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+second-bar .search-box input {
+    border: none;
+    padding: 5px;
+}
+
+.welcome-section {
+    display: flex;
+    padding: 20px;
+    background-color:#25DFAF;
+}
+
+.welcome-section .welcome-text {
+    flex: 1;
+}
+.welcome-section .welcome-text p {
+    font-size: 20px; /* Increased font size */
+}
+
+.welcome-section .welcome-image {
+    flex: 1;
+}
+
+.welcome-section .find-more-button {
+    background-color: darkblue;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+}
+
+footer {
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px;
+}
+
+footer .help-button {
+    background-color: grey;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+}
