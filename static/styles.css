@@ -40,6 +40,14 @@ header .main-nav .green-button {
     text-decoration: none;
 }
 
+header .main-nav .green-button1 {
+    background-color: blue;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
 .second-bar {
     border-top: 1px solid blue;
     border-bottom: 1px solid blue;
@@ -96,6 +104,13 @@ second-bar .search-box input {
     border: none;
     border-radius: 5px;
 }
+.welcome-section .find-more-button1 {
+    background-color: blue;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+}
 
 footer {
     display: flex;
@@ -104,7 +119,14 @@ footer {
 }
 
 footer .help-button {
-    background-color: grey;
+    background-color: green;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+}
+footer .help-button1 {
+    background-color: blue;
     color: white;
     padding: 10px 15px;
     border: none;
